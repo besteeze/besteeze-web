@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+/* default css */
+.title-area{
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.besteeze-logo{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+.title-text{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.title-area a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.text-container{
+    position: relative;
+    height: 260px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-text{
+    position: absolute;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.body-text p{
+    font-size: 22px;
+    line-height: 35px;
+}
+.logo-section{
+    position: relative;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container{
+    position: absolute;
+    height: 100px;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container .ukuul-logo {
+    width: 18vw;
+    position: absolute;
+    left: 0px;
+}
+.logo-container .borgagoods-logo {
+    width: 22vw;
+    position: absolute;
+    right: 0px;
+}
+/* blog css */
+.post-container{
+    position: relative;
+    top: 8vh;
+    left: 12vw;
+    height: 60vh;
+    width: 40vw;
+}
+.post-container h4{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.post-container ul{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    justify-content: space-evenly;
+}
+.post-container ul li{
+    list-style: none;
+}
+.post-container p{
+    font-size: 12px;
+}
+.post-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.markdown-header{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
