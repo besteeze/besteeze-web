@@ -1,0 +1,22 @@
+---
+title: Besteeze Blog
+layout: default
+---
+
+<div class="title-area">
+    <img src={{ "/assets/img/besteeze-logo.svg" | base_url }} alt="besteeze-logo" class="besteeze-logo">
+    <a class="title-text" href="blog.html">Blog</a>
+</div>
+
+<div class="post-container">
+    <h4>Posts</h4>
+
+    <ul class="post-ul">
+        {% for post in site.posts %}
+        <li>
+            <p class="date">{{ post.date }}</p>
+            <a href="{{ post.url }}" class="post-links">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
