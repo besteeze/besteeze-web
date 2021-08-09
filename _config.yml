@@ -35,7 +35,7 @@ theme: minima
 plugins:
   - jekyll-feed
   kramdown:
-  gfm_quirks: [paragraph_end]
+  gfm_quirks: kramdown
   kramdown:
   input: Kramdown
 
