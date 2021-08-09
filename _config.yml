@@ -34,10 +34,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-  kramdown:
-  gfm_quirks: kramdown
-  kramdown:
-  input: Kramdown
+
 
 
 
