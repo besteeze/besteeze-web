@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Lifestyle And Fashion
-layout: nav
+layout: default
 date: 2021-07-29 18:17:14 +0000
 ---
 
