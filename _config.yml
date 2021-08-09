@@ -34,10 +34,6 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-require 'kramdown'
-require 'kramdown-parser-gfm'
-
-Kramdown::Document.new(text, input: 'GFM').to_html
 
 
 
