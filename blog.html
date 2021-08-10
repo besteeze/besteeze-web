@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div class="title-area">
-    <a href="index.html"><img src={{"./assets/img/besteeze-logo.svg" | base_url}} alt="besteeze-logo"
+    <a href="index.html"><img src={{"/assets/img/besteeze-logo.svg" | base_url}} alt="besteeze-logo"
             class="besteeze-logo">
     </a>
     <a class="title-text" href="blog.html">Blog</a>
@@ -16,8 +16,8 @@ layout: default
     <ul class="post-ul">
         {% for post in site.posts %}
         <li>
-            <p class="date">{{ post.date }}</p>
-            <a href="{{ post.url }}" class="post-links">{{ post.title }}</a>
+            <p class="date">{{post.date}}</p>
+            <a href="{{post./url}}" class="post-links">{{post.title}}</a>
         </li>
         {% endfor %}
     </ul>
