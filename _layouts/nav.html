@@ -3,22 +3,10 @@ layout: default
 title: Besteeze Blog
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page.title}}</title>
-</head>
 
-<body>
-    <div class="title-area">
-        <img src={{ "./assets/img/besteeze-logo.svg" | base_url }} alt="besteeze-logo" class="besteeze-logo">
-        <a class="title-text" href="/navigation.html">Blog</a>
-    </div>
-    <div class="markdown-header">{{ content }}</div>
-</body>
-
-</html>
+<div class="title-area">
+    <img src={{ "./assets/img/besteeze-logo.svg" | base_url }} alt="besteeze-logo" class="besteeze-logo">
+    <a class="title-text" href="/navigation.html">Blog</a>
+</div>
+<div class="markdown-header">{{ content }}</div>
