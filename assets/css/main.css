@@ -23,7 +23,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    width: 208.2px;
 }
 .title-text{
     position: absolute;
@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 30px;
     font-weight: lighter;
 }
 .title-area a{
@@ -136,5 +136,5 @@ font-family: 'Roboto', sans-serif;
     .title-text a{
         font-size: 15px;
     }
-    
+
 }
