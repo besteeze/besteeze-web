@@ -17,19 +17,19 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
     height: 90px;
     width: 100vw;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 .title-area img{
-    width: 208.2px;
+    width: 30%;
 }
 .besteeze-logo{
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 .title-text{
     position: absolute;
