@@ -20,11 +20,12 @@ font-family: 'Roboto', sans-serif;
     background-color: salmon;
 }
 .title-area img{
-    width: 900px;
+    width: 208.2px;
 }
 .besteeze-logo{
     position: absolute;
     left: 30px;
+    top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
