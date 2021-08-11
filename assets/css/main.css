@@ -17,10 +17,10 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
     height: 70px;
     width: 100vw;
-    /* background-color: salmon; */
+    background-color: salmon;
 }
 .title-area img{
-    width: 40%;
+    width: 35%;
 }
 .besteeze-logo{
     position: absolute;
@@ -29,7 +29,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: royalblue; */
+    background-color: royalblue;
 }
 .title-text{
     position: absolute;
