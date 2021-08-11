@@ -16,6 +16,7 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
     height: 70px;
+    background-color: salmon;
 }
 .besteeze-logo{
     position: absolute;
