@@ -24,6 +24,7 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
     width: 208.2px;
+    background-color: royalblue;
 }
 .title-text{
     position: absolute;
