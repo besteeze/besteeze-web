@@ -27,6 +27,7 @@ font-family: 'Roboto', sans-serif;
     background-color: royalblue;
 }
 .title-text{
+    background-color: salmon;
     position: absolute;
     right: 30px;
     display: flex;
