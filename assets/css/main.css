@@ -48,7 +48,7 @@ font-family: 'Roboto', sans-serif;
 }
 .text-container{
     position: relative;
-    height: 260px;
+    height: 300px;
     width: 100vw;
     display: flex;
     align-items: center;
