@@ -57,7 +57,7 @@ font-family: 'Roboto', sans-serif;
 }
 .body-text{
     position: absolute;
-    width: 75vw;
+    width: 70vw;
     display: flex;
     align-items: center;
     justify-content: center;
