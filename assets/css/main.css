@@ -29,7 +29,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: royalblue; */
+    background-color: royalblue;
 }
 .title-text{
     position: absolute;
