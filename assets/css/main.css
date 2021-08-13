@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
     /* background-color: salmon; */
 }
 .title-area img{
-    width: 35%;
+    width: 208.2px;
 }
 .besteeze-logo{
     position: absolute;
@@ -41,7 +41,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 .title-area a{
-    font-size: 7vw;
+    font-size: 30px;
     list-style-type: none;
     text-decoration: none;
     font-weight: bold;
@@ -58,7 +58,7 @@ font-family: 'Roboto', sans-serif;
 }
 .body-text{
     position: absolute;
-    width: 75vw;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,7 @@ font-family: 'Roboto', sans-serif;
 }
 .body-text p{
     font-size: 22px;
-    line-height: 35px;
+    line-height: 41px;
 }
 .logo-section{
     position: relative;
@@ -86,12 +86,12 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
 }
 .logo-container .ukuul-logo {
-    width: 18vw;
+    width: 224px;
     position: absolute;
     left: 0px;
 }
 .logo-container .borgagoods-logo {
-    width: 22vw;
+    width: 301.29px;
     position: absolute;
     right: 0px;
 }
@@ -136,6 +136,7 @@ font-family: 'Roboto', sans-serif;
 
 @media only screen and (max-width: 280px){
     .title-area{
-        background-color: red;  
+        /* background-color: red; */
     }
 }
+
