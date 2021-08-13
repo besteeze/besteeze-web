@@ -131,3 +131,10 @@ font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: lighter;
 }
+
+
+@media only screen and (max-width: 280pz){
+    .title-area{
+        background-color: red;  
+    }
+}
