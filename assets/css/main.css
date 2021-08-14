@@ -101,7 +101,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bolder;
 }
-.post-container ul{
+.post-container ul, .post-ul{
 
     width: 70vw;
     display: flex;
@@ -165,15 +165,37 @@ font-family: 'Roboto', sans-serif;
 
     /* post-section */
     .post-container h4{
+        position: relative;
         font-size: 19px;
-        margin-left: 40px;
+        left: -20px;
     }
-    .post-container ul li a{
+    .post-container ul li a
+    .post-ul ul li a{
         font-size: 15px;
     }
     .post-container ul{
+        position: relative;
         height: 45vh;
-        margin-left: 40px;
+        left: -25px;
+        /* background-color: red; */
+    }
+    .post-ul h4{
+        margin-left: 3px;
+        font-size: 19px;
+    }
+    .post-ul{
+        height: 50vh;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
     }
     .markdown-header{
         font-size: 13px;
@@ -221,6 +243,24 @@ font-family: 'Roboto', sans-serif;
         height: 45vh;
         margin-left: 55px;
     }
+    .post-ul h4{
+        margin-left: 3px;
+        font-size: 19px;
+    }
+    .post-ul{
+        height: 50vh;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+    }
     .markdown-header{
         font-size: 13px;
     }
@@ -261,9 +301,46 @@ font-family: 'Roboto', sans-serif;
         height: 45vh;
         margin-left: 55px;
     }
+    .post-ul h4{
+        margin-left: 3px;
+        font-size: 19px;
+    }
+    .post-ul{
+        height: 50vh;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+    }
+    .post-ul h4{
+        margin-left: 3px;
+        font-size: 19px;
+    }
+    .post-ul{
+        height: 50vh;
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+    }
     .markdown-header{
         font-size: 20px;
     }
+    
 }
 
 
@@ -278,6 +355,56 @@ font-family: 'Roboto', sans-serif;
         font-size: 22px;
         line-height: 41px;
     }
+
+         /* post-section */
+         .post-container h4{
+            font-size: 24px;
+            margin-left: 55px;
+        }
+        .post-container ul li a{
+            font-size: 22px;
+        }
+        .post-container ul{
+            height: 45vh;
+            margin-left: 55px;
+        }
+        .post-ul h4{
+            margin-left: 3px;
+            font-size: 19px;
+        }
+        .post-ul{
+            height: 50vh;
+            margin-left: 3px;
+            margin-top: 10px;
+        }
+        .post-ul ul li{
+            list-style: none;
+        }
+        .post-ul ul li a{
+            position: relative;
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+        }
+        .post-ul h4{
+            margin-left: 3px;
+            font-size: 19px;
+        }
+        .post-ul{
+            height: 50vh;
+            margin-left: 3px;
+            margin-top: 10px;
+        }
+        .post-ul ul li{
+            list-style: none;
+        }
+        .post-ul ul li a{
+            position: relative;
+            font-size: 17px;
+            text-decoration: none;
+            color: black;
+        }
+
 }
 
 @media only screen and (min-width: 1200px){
