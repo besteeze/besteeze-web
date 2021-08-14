@@ -1,18 +1,1 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.nav-post{
-    position: relative;
-    top: 6vh;
-    height: 60vh;
-    width: 100vw;
-    background-color: rebeccapurple;
-}
-.nav-ul h4{
-    background-color: red;
-    font-size: 22px;
-    font-weight: bolder;
-    color: red;
-}
+

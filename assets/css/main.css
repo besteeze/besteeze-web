@@ -167,7 +167,7 @@ font-family: 'Roboto', sans-serif;
     .post-container h4{
         position: relative;
         font-size: 19px;
-        left: -20px;
+        left: -8px;
     }
     .post-container ul li a
     .post-ul ul li a{
@@ -176,7 +176,7 @@ font-family: 'Roboto', sans-serif;
     .post-container ul{
         position: relative;
         height: 45vh;
-        left: -25px;
+        left: -8px;
         /* background-color: red; */
     }
     .post-ul h4{
@@ -244,12 +244,13 @@ font-family: 'Roboto', sans-serif;
         margin-left: 55px;
     }
     .post-ul h4{
-        margin-left: 3px;
+        margin-left: 8px;
         font-size: 19px;
+        /* background-color: red; */
     }
     .post-ul{
         height: 50vh;
-        margin-left: 3px;
+        margin-left: 8px;
         margin-top: 10px;
     }
     .post-ul ul li{
@@ -272,9 +273,42 @@ font-family: 'Roboto', sans-serif;
     .besteeze-logo{
         width: 150px;
     }
-}
-.title-text{
-    font-size: 25px;
+    .title-text{
+        font-size: 25px;
+    }
+        /* post-section */
+        .post-container h4{
+            font-size: 19px;
+            margin-left: 55px;
+        }
+        .post-container ul li a{
+            font-size: 17px;
+        }
+        .post-container ul{
+            height: 45vh;
+            margin-left: 55px;
+        }
+        .post-ul h4{
+            margin-left: 3px;
+            font-size: 19px;
+        }
+        .post-ul{
+            height: 50vh;
+            margin-left: 3px;
+            margin-top: 10px;
+        }
+        .post-ul ul li{
+            list-style: none;
+        }
+        .post-ul ul li a{
+            position: relative;
+            font-size: 17px;
+            text-decoration: none;
+            color: black;
+        }
+        .markdown-header{
+            font-size: 13px;
+        }
 }
 
 @media only screen and (min-width: 768px){
@@ -315,13 +349,13 @@ font-family: 'Roboto', sans-serif;
     }
     .post-ul ul li a{
         position: relative;
-        font-size: 17px;
+        font-size: 21px;
         text-decoration: none;
         color: black;
     }
     .post-ul h4{
         margin-left: 3px;
-        font-size: 19px;
+        font-size: 24px;
     }
     .post-ul{
         height: 50vh;
@@ -331,11 +365,8 @@ font-family: 'Roboto', sans-serif;
     .post-ul ul li{
         list-style: none;
     }
-    .post-ul ul li a{
-        position: relative;
-        font-size: 17px;
-        text-decoration: none;
-        color: black;
+    .post-ul ul li p{
+        font-size: 14px;
     }
     .markdown-header{
         font-size: 20px;
@@ -356,54 +387,47 @@ font-family: 'Roboto', sans-serif;
         line-height: 41px;
     }
 
-         /* post-section */
-         .post-container h4{
-            font-size: 24px;
-            margin-left: 55px;
-        }
-        .post-container ul li a{
-            font-size: 22px;
-        }
-        .post-container ul{
-            height: 45vh;
-            margin-left: 55px;
-        }
-        .post-ul h4{
-            margin-left: 3px;
-            font-size: 19px;
-        }
-        .post-ul{
-            height: 50vh;
-            margin-left: 3px;
-            margin-top: 10px;
-        }
-        .post-ul ul li{
-            list-style: none;
-        }
-        .post-ul ul li a{
-            position: relative;
-            font-size: 22px;
-            text-decoration: none;
-            color: black;
-        }
-        .post-ul h4{
-            margin-left: 3px;
-            font-size: 19px;
-        }
-        .post-ul{
-            height: 50vh;
-            margin-left: 3px;
-            margin-top: 10px;
-        }
-        .post-ul ul li{
-            list-style: none;
-        }
-        .post-ul ul li a{
-            position: relative;
-            font-size: 17px;
-            text-decoration: none;
-            color: black;
-        }
+
+    
+     /* post-section */
+     .post-container h4{
+        font-size: 24px;
+        margin-left: 100px;
+    }
+    .post-container ul li a{
+        font-size: 22px;
+    }
+    .post-container ul{
+        height: 30vh;
+        margin-left: 100px;
+    }
+    .post-ul h4{
+        margin-left: 40px;
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .post-ul ul li{
+        list-style: none;
+    }
+    .post-ul ul li a{
+        position: relative;
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .post-ul{
+        height: 35vh;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .post-ul ul li p{
+        font-size: 15px;
+    }
+    .post-ul li p{
+        font-size: 20px;
+        /* background-color: red; */
+    }
 
 }
 
@@ -414,5 +438,42 @@ font-family: 'Roboto', sans-serif;
     .body-text p{
         font-size: 22px;
         line-height: 41px;
+    }
+     /* post-section */
+     .post-container h4{
+        position: relative;
+        font-size: 24px;
+        left: 65px;
+    }
+    .post-container ul li a{
+        font-size: 22px;
+    }
+    .post-container ul{
+        position: relative;
+        height: 60vh;
+        left: 65px;
+    }
+    .post-ul h4{
+        position: relative;
+        left: 60px;
+        font-size: 24px;
+    }
+    .post-ul ul li{
+        list-style: none;
+        margin-left: 60px;
+    }
+    .post-ul ul li a{
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+    }
+    .post-ul{
+        height: 67vh;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .post-ul ul li p{
+        font-size: 15px;
+        /* background-color: red; */
     }
 }
