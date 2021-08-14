@@ -251,7 +251,7 @@ font-family: 'Roboto', sans-serif;
     }
     .post-ul{
         height: 50vh;
-        margin-left: 8px;
+        margin-left: 15px;
         margin-top: 10px;
     }
     .post-ul ul li{
@@ -281,22 +281,22 @@ font-family: 'Roboto', sans-serif;
         /* post-section */
         .post-container h4{
             font-size: 19px;
-            margin-left: 55px;
+            margin-left: 75px;
         }
         .post-container ul li a{
             font-size: 17px;
         }
         .post-container ul{
             height: 45vh;
-            margin-left: 55px;
+            margin-left: 75px;
         }
         .post-ul h4{
-            margin-left: 3px;
+            margin-left: 22px;
             font-size: 19px;
         }
         .post-ul{
             height: 50vh;
-            margin-left: 3px;
+            margin-left: 22px;
             margin-top: 10px;
         }
         .post-ul ul li{
@@ -329,23 +329,19 @@ font-family: 'Roboto', sans-serif;
         /* post-section */
     .post-container h4{
         font-size: 24px;
-        margin-left: 55px;
+        margin-left: 90px;
     }
     .post-container ul li a{
         font-size: 21px;
     }
     .post-container ul{
         height: 45vh;
-        margin-left: 55px;
+        margin-left: 90px;
+        /* background-color: rgb(253, 146, 146); */
     }
     .post-ul h4{
         margin-left: 3px;
         font-size: 19px;
-    }
-    .post-ul{
-        height: 50vh;
-        margin-left: 3px;
-        margin-top: 10px;
     }
     .post-ul ul li{
         list-style: none;
@@ -357,12 +353,12 @@ font-family: 'Roboto', sans-serif;
         color: black;
     }
     .post-ul h4{
-        margin-left: 3px;
+        margin-left: 30px;
         font-size: 24px;
     }
     .post-ul{
         height: 50vh;
-        margin-left: 3px;
+        margin-left: 30px;
         margin-top: 10px;
     }
     .post-ul ul li{
