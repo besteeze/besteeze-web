@@ -231,7 +231,12 @@ font-family: 'Roboto', sans-serif;
         /* background-color: rgb(110, 105, 116); */
         width: 53vw;
     }
-
+    .logo-container .ukuul-logo{
+        width: 71.94px;
+    }
+    .logo-container .borgagoods-logo{
+        width: 98px;
+    }
     /* post-section */
     .post-container h4{
         font-size: 19px;
